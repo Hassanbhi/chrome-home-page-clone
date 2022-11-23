@@ -1,0 +1,153 @@
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+.upers{
+    width: 100vw;
+    height: 362.4px;
+    margin: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.image{
+    position:relative;
+    bottom: -75px ;
+    display: block;
+    /* border: 1px solid red; */
+    margin:auto;
+    z-index: 5;
+    
+}
+.image img{
+    
+    width: 272px;
+    height: 180px;
+    margin-bottom: 55px;
+}
+.inp input{
+    position: relative;
+    background: none;
+    top: -42px;
+    width: 461px;
+    height: 38px;
+    color: black;
+    font-size: 16px;
+    border:none;
+    outline: none;
+    z-index: 4;
+}
+
+.icon{
+    z-index: 3;
+    margin: 10px;
+    
+}
+.box{
+    display: flex;
+    width: 561px;
+    height: 44px;
+    background-color: white;
+    /* border: 1px solid black; */
+    align-items: center;
+    border-radius: 22px;
+    z-index: 2;
+    box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.184) ;
+}
+.lowers{
+    display: flex;
+    width: 100vw;
+
+}
+.inerbox img{
+    width: 24px;
+    height:24px;
+}
+.inerbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 48px;
+    height: 48px;
+    border-radius: 24px;
+    /* flex-direction: row; */
+
+    background-color: #f1f3f4;
+}
+.cbox{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 112px;
+    height: 110px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 7px;
+    /* border: 2px solid red ; */
+    margin-left: 34%;
+    top: -24px;
+}
+.cbox p{
+    margin-top: 14px;
+    position: relative;
+    bottom: -5px;
+    font-size: 13px;
+}
+.cbox2{
+    position:relative;
+    display: flex;
+    flex-direction: column;
+    width: 112px;
+    height: 110px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 7px;
+    /* border: 2px solid red ; */
+    margin-left: 47%;
+
+    top: -137px;
+    z-index: 3;
+
+}
+.cbox2 p {
+    font-size: 13px;
+    margin-top: 14px;
+    position: relative;
+    bottom: -12px;
+}
+.cbox3{
+    position:relative;
+    display: flex;
+    flex-direction: column;
+    width: 112px;
+    height: 110px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 7px;
+    /* border: 2px solid red ; */
+    margin-left: 59%;
+
+    top: -247px;
+    z-index: 4;
+
+}
+.cbox3 p {
+    font-size: 13px;
+    margin-top: 14px;
+    position: relative;
+    bottom: -12px;
+}
+.cbox:hover{
+    background-color: #e8e8e8;
+    cursor: pointer;
+}
+.cbox2:hover{
+    background-color: #e8e8e8;
+    cursor: pointer;
+}
+.cbox3:hover{
+    background-color: #e8e8e8;
+    cursor: pointer;
+}
